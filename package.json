@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:site-one": "npm --prefix site-one run build",
+    "build:site-two": "npm --prefix site-two run build"
+
   },
   "author": "",
   "license": "ISC"
